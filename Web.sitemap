@@ -4,12 +4,14 @@
         <siteMapNode url="~/default.aspx" title="Home"  description="" />
 
 
-      <siteMapNode url ="/admin/default.aspx" title ="Admin" description ="" >
-        <siteMapNode url ="~/admin/add.aspx" title ="Add Item" description ="" />
-        <siteMapNode url ="~/admin/edit.aspx" title ="Edit Item " description ="" />      
-      </siteMapNode>
-                
-            
-        <siteMapNode url="" title=""  description="" />
+        <siteMapNode url ="~/admin/default.aspx" title ="Admin" description ="" >
+          <siteMapNode url ="~/admin/add.aspx" title ="Add Item" description ="" />
+          <siteMapNode url ="~/admin/edit.aspx" title ="Edit Item " description ="" />      
+        </siteMapNode>
+
+        <siteMapNode url="~/login/default.aspx" title="Login"  description="" />
+
+
+      <siteMapNode url="" title=""  description="" />
     </siteMapNode>
 </siteMap>

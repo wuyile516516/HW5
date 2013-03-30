@@ -1,21 +1,22 @@
 ﻿/* Div formatting */
 #masterForm{padding:20px;background:#F2F2F2;}
 #container{width:auto; }
-#header{background:#E0F8F7; color:White; padding:10px 0px 0px 0px; margin: 0 auto; height: 56px;}
-#menu{background:#58ACFA;}
+#header{background:white; color:White; padding:10px 0px 0px 0px; margin: 0 auto; height: 101px;}
+#menu{background:#01A9DB;}
 #main{background:white;}
-#footer{background:#E0F8F7; color:White;padding:10px;}
+#footer{background:#01A9DB; color:White;padding:10px;}
 
 .level1 {color:White ; 
-         background-color:#58ACFA ;
          font-weight : bold; 
          border:5px;
          padding: 8px; 
          font-size:small;}
          
 .level2 {color:White ; 
-         background-color:#58ACFA ;
+         background:#01A9DB;
          font-weight : bold; 
          border:5px;
          padding: 8px;
          font-size:small;}
+         
+.hdr_img{float:right; margin:0;padding:0; boarder:0;background:#F2F2F2;}
