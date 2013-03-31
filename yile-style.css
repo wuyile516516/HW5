@@ -20,3 +20,10 @@
          font-size:small;}
          
 .hdr_img{float:right; margin:0;padding:0; boarder:0;background:#F2F2F2;}
+
+#LoginStatus1{float:right;
+              color:White;  
+              font-weight : bold; 
+              border:5px;
+              padding: 8px; 
+              font-size:small; }

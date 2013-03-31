@@ -28,10 +28,12 @@
         </div>
             
         <div id = "menu">
+            <asp:LoginStatus ID="LoginStatus1" runat="server" />
+
               <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation = "Horizontal" >
                 <LevelMenuItemStyles>
                     <asp:MenuItemStyle CssClass = "level1" />
-                    <asp:MenuItemStyle CssClass = "level1" />
+                    <asp:MenuItemStyle CssClass = "level2" />
                 </LevelMenuItemStyles>
             </asp:Menu>
 
