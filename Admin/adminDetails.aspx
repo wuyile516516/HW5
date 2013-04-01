@@ -3,9 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div class = "detailcontrol">
     <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" 
     DataKeyNames="productID" DataSourceID="SqlDataSource1" Height="50px" 
-    Width="381px" >
+    Width="381px"  CssClass="cssdetailsview">
     <Fields>
         <asp:BoundField DataField="productID" HeaderText="ProductID" ReadOnly="True" 
             SortExpression="productID" />
@@ -24,6 +25,7 @@
             ShowInsertButton="True" />
     </Fields>
 </asp:DetailsView>
+</div>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
     ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
     DeleteCommand="DELETE FROM [shoes] WHERE [productID] = @productID" 

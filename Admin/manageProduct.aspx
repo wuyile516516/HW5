@@ -6,7 +6,7 @@
     <p>
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" 
             AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="productID" 
-            DataSourceID="SqlDataSource1">
+            DataSourceID="SqlDataSource1" CssClass = "cssgridview">
             <Columns>
                 <asp:BoundField DataField="productID" HeaderText="ProductID" ReadOnly="True" 
                     SortExpression="productID" />
