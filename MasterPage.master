@@ -9,6 +9,7 @@
     </asp:ContentPlaceHolder>
 
     <link  rel ="Stylesheet" type ="text/css" href="./yile-style.css" />
+
     <style type="text/css">
         .style1
         {

@@ -5,8 +5,7 @@
 
 
         <siteMapNode url ="~/admin/default.aspx" title ="Admin" description ="" >
-          <siteMapNode url ="~/admin/add.aspx" title ="Add Item" description ="" />
-          <siteMapNode url ="~/admin/edit.aspx" title ="Edit Item " description ="" />      
+          <siteMapNode url ="~/admin/manageProduct.aspx" title ="Manage Product" description ="" />      
         </siteMapNode>
 
 

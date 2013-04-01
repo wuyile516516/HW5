@@ -19,7 +19,7 @@
          padding: 8px;
          font-size:small;}
          
-.hdr_img{float:right; margin:0;padding:0; boarder:0;background:#F2F2F2;}
+.hdr_img{float:right; margin:0;padding:0; border:0;background:#F2F2F2;}
 
 #LoginStatus1{float:right;
               color:White;  
@@ -27,3 +27,15 @@
               border:5px;
               padding: 8px; 
               font-size:small; }
+              
+.deletedPro {color:Red; font-style: italic ; font-weight: bold ; text-decoration:underline;}
+
+/* CSS for grid view */
+.cssgridview {  width:100%; margin:5px 0 10px 0; border:solid 1px #525252; text-align:center; font-family: "Calibri"; color: #7C6F57; background-color: white}
+.cssgridview td { padding:5px; border:solid 1px #c1c1c1; color:#717171; }
+.cssgridview td a, a:visited { color:#717171; text-decoration:none; }
+.cssgridview th { padding:5px; color:silver; background:#01A9DB; border-left:solid 1px #525252;  }
+.cssgridview th a:hover { color:green; background-color:yellow; text-decoration:underline; }
+.cssgridview .pgr { background: #424242 url(./css/grd_pgr.png) repeat-x top; }
+.cssgridview .pgr table { margin: 10px 0; }
+.cssgridview .pgr a { color: #666; text-decoration: none; }
